@@ -10,7 +10,7 @@
 .container{
     position: relative;
     top: 60px;
-    height: 60vh;
+    height: 65vh;
     width: 900vw;
     max-width: 1000px;
     display: flex;

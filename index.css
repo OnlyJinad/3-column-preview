@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: white;
+}
+.container{
+    position: relative;
+    top: 60px;
+    height: 65vh;
+    width: 900vw;
+    max-width: 1000px;
+    display: flex;
+    flex-direction:row;
+    justify-items: center;
+    text-align: left;
+    border: solid rgb(250, 248, 248);
+    margin: 50px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+.card1{
+    background-color:hsl(31, 77%, 52%) ;
+    padding: 20px;
+
+    button{
+    color: hsl(31, 77%, 52%);
+    }
+
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+    button{
+        color: hsl(184, 89.00%, 14.30%);
+    }
+}
+.card3{
+    background-color: hsl(184, 89.00%, 14.30%);
+    padding: 20px;
+    button{
+        color:hsl(184, 89.00%, 14.30%) ;
+        position: relative;
+        top: 130px;
+    }
+}
+img{
+    position: relative;
+    top: 50px;
+    left: 20px;
+   
+ 
+}
+.card-text{
+    color: hsl(0, 0%, 95%);
+    margin-top: 70px;
+    font-family:"Kumbh Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    position: relative;
+    left:20px ;
+   
+
+   
+}
+.paragraph-text{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top:40px ;
+    font-weight: 400;
+    font-family: "Red Hat Display", serif;
+    font-size: 20px;
+    position: relative;
+    left: 15px;
+
+    
+   
+    
+   
+}
+.card-button{
+    background-color: hsl(0, 0%, 95%);
+    position: relative;
+    top: 100px ;
+    left: 20px;
+    border: white;
+    border-radius: 20px;
+    padding: 15px 40px ;
+    
+   
+    
+   
+
+
+}
